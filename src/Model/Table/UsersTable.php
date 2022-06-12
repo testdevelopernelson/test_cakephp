@@ -142,11 +142,5 @@ class UsersTable extends Table
         return $rules;
     }
 
-    public function findAuth(Query $query, array $options){
-        $query->select(['id', 'name', 'email', 'mobile', 'city', 'role']);
-
-        return $query;
-    }
-
     
 }

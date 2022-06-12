@@ -50,10 +50,4 @@ class User extends Entity
     protected function _setPassword($password) {
         return (new DefaultPasswordHasher)->hash($password);
     }
-
-    public function checkCurrentPassword($current_password) {
-        $this->id = $this->Auth->user('id');
-
-        return (new DefaultPasswordHasher)->hash($current_password);
-    }
 }

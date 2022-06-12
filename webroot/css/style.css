@@ -1,0 +1,45 @@
+.container.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.input-group > .input.text > .custom-file, .input-group>.custom-select, .input-group > .input.text > .form-control, .input-group>  .input.text > .form-control-plaintext {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.input-group-prepend {
+    display: flex;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.input-group-text {
+    width: 7%;
+}
+
+.input-group-prepend .input {
+    width: 95%;
+}
+
+.error-message {
+    position: absolute;
+    bottom: -13px;    
+    color: red;
+    font-weight: 600;
+}
+
+.thead-table{
+    background:#17a2b8;
+    color: #fff;
+}
+
+.view .input-group-prepend h4{
+    margin-left: 10px;
+    margin-bottom: 0;
+}

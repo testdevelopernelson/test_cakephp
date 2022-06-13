@@ -12,9 +12,6 @@
                     <div class="form-group">
                         <?php echo $this->Form->control('password', ['class' => 'form-control input-lg', 'type' => 'password', 'label' => 'Contraseña', 'div' => false]);?>
                     </div>
-                    <span class="button-checkbox">
-                        <a href="" class="btn btn-link pull-right">¿Olvidó su contraseña?</a>
-                    </span>
                     <hr class="colorgraph">
                     <div class="row button-login">
                         <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
